@@ -1,18 +1,18 @@
-Reference from https://github.com/nelsonchung/tsrtc
 
 # Taiwan Stock Real Time Crawler
 
-即時監控某些當沖股票的成交價，以及最佳五檔
+即時監控並顯示某些當沖股票的成交價，以及最佳五檔
+
+Reference from https://github.com/nelsonchung/tsrtc
 
 ## 更新
 
 ./monitor.sh
 
-## 使用方法
-
-可以爬當下 257 隻當沖股票的即刻資訊。
-
 ## 注意事項
+
+參考來源 https://github.com/nelsonchung/tsrtc
+感謝無私分享
 
 ### 更改清單
 
