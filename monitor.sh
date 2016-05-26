@@ -88,5 +88,5 @@ do
     echo -e "${COLOR_GREEN}$sellprice_quantity_c\t$sellprice_c${COLOR_REST}\t${COLOR_RED}$buyprice_c\t$buyprice_quantity_c${COLOR_REST}"
     echo -e "${COLOR_GREEN}$sellprice_quantity_d\t$sellprice_d${COLOR_REST}\t${COLOR_RED}$buyprice_d\t$buyprice_quantity_d${COLOR_REST}"
     echo -e "${COLOR_GREEN}$sellprice_quantity_e\t$sellprice_e${COLOR_REST}\t${COLOR_RED}$buyprice_e\t$buyprice_quantity_e${COLOR_REST}"
-    echo -e "=============================================================================================================================="
+    echo -e "================================================="
 done < $datafile
