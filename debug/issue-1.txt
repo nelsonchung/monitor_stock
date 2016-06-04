@@ -1,0 +1,30 @@
+錯誤訊息
+==================================================================================================
+run python crawl.py
+Traceback (most recent call last):
+    File "crawl.py", line 101, in <module>
+    main()
+    File "crawl.py", line 97, in main
+    dataList = controller.getStockData()
+    File "crawl.py", line 25, in getStockData
+    dataList.extend(crawler.getStockData())
+    File "crawl.py", line 61, in getStockData
+    response = req.get(self.queryURL)
+    File "/usr/lib/python2.7/dist-packages/requests/sessions.py", line 467, in get
+    return self.request('GET', url, **kwargs)
+File "/usr/lib/python2.7/dist-packages/requests/sessions.py", line 455, in request
+resp = self.send(prep, **send_kwargs)
+File "/usr/lib/python2.7/dist-packages/requests/sessions.py", line 578, in send
+history = [resp for resp in gen] if allow_redirects else []
+File "/usr/lib/python2.7/dist-packages/requests/sessions.py", line 178, in resolve_redirects
+allow_redirects=False,
+File "/usr/lib/python2.7/dist-packages/requests/sessions.py", line 558, in send
+r = adapter.send(request, **kwargs)
+File "/usr/lib/python2.7/dist-packages/requests/adapters.py", line 378, in send
+raise ConnectionError(e)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='1.1.1.3', port=80): Max retries exceeded with url: / (Caused by <class 'socket.error'>: [Errno 110] Connection timed out)
+==================================================================================================
+
+
+想法：
+timeout問題？？？？？？？？？？？？？？？？？？？
