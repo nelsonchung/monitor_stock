@@ -7,6 +7,10 @@ Reference from https://github.com/nelsonchung/tsrtc
 
 ./monitor.sh
 
+## 自動更新
+
+./timer.sh
+
 ## 注意事項
 
 參考來源 https://github.com/nelsonchung/tsrtc
