@@ -2,5 +2,5 @@
 while [ 1 ]
 do
     ./monitor.sh
-    sleep 2 
+    sleep 8 
 done
